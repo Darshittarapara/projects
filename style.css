@@ -1,0 +1,709 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style:Light 300;
+}
+header {
+
+  margin: 20px 270px;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+}
+header .header .header-icon i {
+  margin: 0px 5px;
+}
+header .header .header-title {
+  text-align: center;
+}
+header .header .header-title h1 {
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+header .header .header-title span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: rgba(0,0,0,0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header .header .header-shop-icon img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+header .menu-bar {
+  text-align: center;
+  margin: 20px 16px;
+}
+header .menu-bar  ul {
+  list-style-type: none;
+
+}
+header .menu-bar  ul  li {
+  display: inline-block;
+  
+ padding:5px;
+
+}
+header .menu-bar  ul  li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0,0,0,0.9);
+}
+.center-block {
+  margin: 20px 270px;
+}
+.center-block .contain-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items:center;
+}
+.center-block .contain-block .list {
+  margin: 15px 0px;
+  text-align: center;
+}
+.center-block .contain-block .list ul {
+  list-style-type: none;
+}
+.center-block .contain-block .list ul  li {
+  display: inline-block;
+  margin: 0px 8px;
+  font-size: 12px ;
+}
+.center-block .contain-block .list ul  li  .fa-check {
+  margin:0px 2px;
+  color:rgba(0,0,0,0.5) ;
+  font-size: 10px ;
+
+} 
+/* w-363 h-361 */
+.center-block .contain-block .center-img {
+ 
+  margin-top: 20px;
+  display: flex;
+
+}
+.center-block .contain-block .center-img .silder{
+  margin: 0px 6px;
+  width: 280px;
+  height: 361px;
+}
+.center-block .contain-block .center-img .silder img {
+  width: 100%;
+  margin: 15px;
+height: 320px;
+
+
+}
+.center-block .contain-block .center-img .silder .overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 5px;
+}
+.center-block .contain-block .center-img .silder .overlay .fa-long-arrow-right {
+  color: dimgray;
+
+}
+.nyhedsbrev-block {
+  margin:50px 250px ;
+  
+}
+.nyhedsbrev-block section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nyhedsbrev-block section .arrows .prew {
+  background: black;
+  color: white;
+  margin: 0px 2px;
+  padding: 7px 10px;
+}
+.nyhedsbrev-block .nyhedsbrev-img {
+  display: flex;
+  justify-content: space-evenly;  
+}
+.nyhedsbrev-block .nyhedsbrev-img .nyhedsbrev-contain {
+  width: 520px;
+ background: #f0efef;;
+padding: 15px 10px;
+  margin: 0px 10px;
+}
+.nyhedsbrev-block .nyhedsbrev-img .nyhedsbrev-contain img {
+  width: 96%;
+  
+}
+/* w-587 h -341 */
+.byNicholaine-block {
+  margin: 25px 240px;
+}
+.byNicholaine-block .byNicholaine-contain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.byNicholaine-block .byNicholaine-contain .byNicholaine-items  {
+margin: 0px 10px;
+}
+.byNicholaine-block .byNicholaine-contain .byNicholaine-items  img {
+  width: 487px;
+}
+.byNicholaine-block .byNicholaine-contain .details .span {
+     padding: 20px 0px;
+}
+.byNicholaine-block .byNicholaine-contain .details h4 {
+  margin: 25px 0px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+.byNicholaine-block .byNicholaine-contain .details p {
+  font-size: 16px;
+  width: 500px;
+  font-weight:400;
+  line-height: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 19px 0px;
+}
+.byNicholaine-block .byNicholaine-contain .details .btn {
+  background: black;
+  width: 120px;
+  height:40px;
+
+}
+
+
+
+
+
+.Leopard-Plakat-block {
+  margin: 65px 290px;
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-direction: row-reverse;
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain .Leopard-Plakat-items  {
+margin: 0px 10px;
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain .Leopard-Plakat-items  img {
+  width: 377px;
+}
+
+.Leopard-Plakat-block .Leopard-Plakat-contain .details h4 {
+  margin: 25px 0px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain .details p {
+  font-size: 16px;
+  width: 500px;
+  font-weight:400;
+  line-height: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 19px 0px;
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain .details .btn {
+  background: black;
+  width: 120px;
+  height:40px;
+
+}
+
+
+
+
+
+.selection-block {
+  margin:50px 200px ;
+  
+}
+.selection-block section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.selection-block .selection-img {
+  display: flex;
+  justify-content: space-evenly;  
+}
+.selection-block .selection-img .selection-contain {
+  width: 520px;
+ background: #f0efef;;
+margin: 0px 4px;
+}
+.selection-block .selection-img .selection-contain img {
+  width: 100%;
+  
+}
+
+
+
+.tilmeld-block {
+  background: black;
+  width: 600px;
+  height: 250px;
+  margin:20px 360px;
+}
+.tilmeld-block .tilmeld-contain {
+  text-align: center;
+  padding: 55px;
+}
+.tilmeld-block .tilmeld-contain  h2 {
+  color: white;
+  margin: 10px 0px;
+}
+.tilmeld-block .tilmeld-contain   h4 {
+  color: white;
+  margin: 10px 0px;
+}
+.tilmeld-block .tilmeld-contain  form {
+margin: 16px 0px;
+}
+.tilmeld-block .tilmeld-contain input[type="text"] {
+  width: 300px;
+  height: 40px;
+}
+.tilmeld-block .tilmeld-contain input[type="text"]::placeholder{
+  padding: 5px 10px;
+}
+
+.tilmeld-block .tilmeld-contain input[type="button"]{
+  height: 40px;
+  background:none;
+  margin: 0px 5px;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 15px;
+}
+
+
+.logos {
+  margin: 50px 200px;
+}
+.logos .logos-contain img {
+  margin: 0px 20px;
+  
+}
+.logos .logos-contain  img:hover{
+  background: #91b3be;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  background:#91b3be;
+  padding: 50px;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+footer .footer  .footer-contain h1 {
+  font-size: 26px;
+  letter-spacing: 2px;
+
+}
+footer .footer  .footer-contain {
+
+color: white;
+  margin: 0px 18px
+}
+footer .footer  .footer-contain p {
+  font-size: 14px;
+  width: 350px;
+  margin: 10px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nyhedsbrev-block .nyhedsbrev-img .nyhedsbrev-contain {
+  width: 520px;
+ background: #f0efef;;
+padding: 15px 10px;
+  margin: 0px 10px;
+  display: block;
+}
+header  .header-titles {
+  display: none;
+}
+footer .footer  .footer-contain ul li  {
+display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+/* footer .footer  .footer-contain .one li .margin{
+  margin: 16px 0px;
+  padding: 10px;
+} */
+footer .footer  .footer-contain h3 {
+  margin: 22px 0px;
+  text-transform: uppercase;
+
+}
+header  .menu {
+  position: absolute;
+  right:10px;
+  top: 70px;
+  display: none;
+}
+footer .table table td {
+ width: 90vw;
+ height: 3px;
+ background:whitesmoke;
+}
+.copy-right {
+  margin: 0px 30px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 
+
+==================for moblie view------------ */
+@media screen and (max-width:545px) {
+  header {
+    margin: 0px auto;
+  }
+  header .header .header-title {
+    display: none;
+  }
+  header .header {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    /* position: absolute;
+    left: 20px; */
+
+  }
+ 
+   header  .menu {
+    position: absolute;
+    right:10px;
+    top: 70px;
+    display: block;
+}
+header  .header-titles {
+  position: absolute;
+  top: 70px;
+  display: block;
+  left: 10px;
+
+}
+.Leopard-Plakat-block .Leopard-Plakat-contain .Leopard-Plakat-items  img {
+  width: 300px;
+}
+.byNicholaine-block .byNicholaine-contain .byNicholaine-items  img {
+  width: 300px;
+}
+header .header .header-icon i{
+  font-size: 28px;
+}
+header .header .header-shop-icon img {
+  width: 30px;
+  height: 30px;
+}
+.tilmeld-block .tilmeld-contain {
+  text-align: center;
+  padding: 55px;
+}
+header .menu-bar  ul  {
+  position: absolute;
+
+  
+left: -490px;
+/* display: none; */
+transition: all 1s ease-in-out;
+  width: 100%;
+  z-index: 2;
+  height: auto;
+  background: black;
+}
+header  .menu-bar   .block {
+/* display: block; */
+position: absolute;
+top: 120px;
+left: 0px;
+height: auto;
+z-index: 2;
+}
+.center-block .contain-block .list ul  li {
+  display: inline-block;
+  margin: 0px 8px;
+  font-size: 18px ;
+}
+header  .menu-bar   ul li {
+display: block;
+color: wheat;
+margin: 20px 10px;
+list-style-type: none;
+text-align: center;
+}
+header .menu-bar ul li a {
+  color: white;
+  font-size: 18px;
+}
+  .center-block {
+    margin: 60px auto;
+  }
+  .nyhedsbrev-block {
+    margin:50px auto  ;
+    
+  }
+  .byNicholaine-block {
+    margin: 25px auto;
+  }
+  
+  .Leopard-Plakat-block {
+    margin: 65px auto;
+
+  }
+  .Leopard-Plakat-block .Leopard-Plakat-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction:column;
+  }
+  .Leopard-Plakat-block .Leopard-Plakat-contain .details  {
+    text-align: center;
+  }
+  .Leopard-Plakat-block .Leopard-Plakat-contain .details  p{
+    width: auto;
+  }
+  .tilmeld-block .tilmeld-contain input[type="button"]{
+    height: 40px;
+    background:none;
+    margin: 16px 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 15px;
+  }
+  
+
+  .center-block .contain-block .center-img {
+ 
+    margin:20px 0px;
+    display: flex;
+  flex-direction: column;
+  }
+
+
+  .byNicholaine-block .byNicholaine-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction:column;
+  }
+  .byNicholaine-block .byNicholaine-contain .details  {
+    text-align: center;
+  }
+  .byNicholaine-block .byNicholaine-contain .details  p{
+    width: auto;
+  }
+  .selection-block {
+    margin:50px auto;
+    
+  }
+  .tilmeld-block {
+    background: black;
+    width: 100vw;
+
+    height: 350px;
+    margin:10px auto;
+  }
+  .logos {
+    margin: 50px auto;
+  }
+  .nyhedsbrev-block .nyhedsbrev-img .nyhedsbrev-contain {
+    width: 520px;
+   background: #f0efef;;
+  padding: 15px 10px;
+    margin: 0px 10px;
+    display: none;
+  }
+  .nyhedsbrev-block .nyhedsbrev-img .first {
+    display: block;
+  }
+  footer {
+    padding: 0px auto;
+    width: 100vw;
+    height: auto;
+   }
+   footer .footer{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     height: 300px;
+     height: auto;
+   }
+   footer .footer .footer-contain  p {
+     width: auto;
+   }
+   footer .footer .footer-contain ul .arrange {
+      margin-left: -30px;
+   }
+   header  .header-titles h1 {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+  }
+  header  .header-titles span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(0,0,0,0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+
+
+}
+
+
+@media screen and (min-width:800px) and (max-width:1265px) {
+  .header {
+    margin: 0px auto;
+  }
+  .center-block {
+    margin: 60px auto;
+  }
+  .nyhedsbrev-block {
+    margin:50px auto  ;
+    
+  }
+  header  .menu {
+    position: absolute;
+    right:10px;
+    top: 70px;
+    display: none;
+  }
+  .byNicholaine-block {
+    margin: 25px auto;
+  }
+  
+  .Leopard-Plakat-block {
+    margin: 65px auto;
+
+  }
+  .tilmeld-block {
+    background: black;
+    width: 100vw;
+
+    height: 350px;
+    margin:10px auto;
+  }
+  header .header-titles {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width:600px) and (max-width:790px) {
+  header {
+    margin: 0px auto;
+  }
+  footer {
+    width: 100vw;
+  }
+  footer .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 300px;
+    height: auto;
+  }
+  footer .footer .footer-contain  p {
+    width: auto;
+  }
+  footer .footer .footer-contain ul .arrange {
+     margin-left: -30px;
+  }
+  .center-block {
+    margin: 60px auto;
+  }
+  .nyhedsbrev-block {
+    margin:50px auto  ;
+    
+  }
+  header .header-titles {
+    display: none;
+  }
+  .Leopard-Plakat-block .Leopard-Plakat-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction:column;
+  }
+  .center-block .contain-block .center-img {
+ 
+    margin:20px 0px;
+    display: flex;
+  flex-direction: column;
+  }
+  header  .menu {
+    position: absolute;
+    right:10px;
+    top: 70px;
+    display: none;
+  }
+  .byNicholaine-block {
+    margin: 25px auto;
+  }
+  .byNicholaine-block .byNicholaine-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction:column;
+  }
+  
+  .Leopard-Plakat-block {
+    margin: 65px auto;
+
+  }
+  .tilmeld-block {
+    background: black;
+    width: 100vw;
+
+    height: 350px;
+    margin:10px auto;
+  }
+}
